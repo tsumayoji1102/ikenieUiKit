@@ -1,0 +1,6 @@
+framework module Pods_ikenieUiKit_ikenieUiKitUITests {
+  umbrella header "Pods-ikenieUiKit-ikenieUiKitUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
