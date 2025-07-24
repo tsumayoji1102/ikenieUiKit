@@ -11,13 +11,17 @@ import PhotosUI
 class ViewController: UIViewController {
     
     private var selectphotoButton: UIButton!
+    private var text: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        self.text = UILabel(frame: CGRect(x: 100, y: 200, width: 200, height: 50))
         
         createSelectPhotoButton()
         view.addSubview(selectphotoButton)
+        
+        
     }
     
     func createSelectPhotoButton() {
